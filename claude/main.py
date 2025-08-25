@@ -92,7 +92,7 @@ def traverse_folder(folder_path, doc, level, relative_path):
 
 if __name__ == '__main__':
     folder_path = ""
-    output_file = Path("./combined_document.md")
+    output_file = Path(__file__).parent.parent / "combined_document.md"
 
 
     generate_document(folder_path, output_file)

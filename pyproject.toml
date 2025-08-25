@@ -1,20 +1,6 @@
-[tool.poetry]
+[project]
 name = "claude-tests"
 version = "0.1.0"
-description = ""
-authors = ["evgenii.basmov <coykto@gmail.com>"]
-readme = "README.md"
-packages = [{include = "claude_tests"}]
-
-[tool.poetry.dependencies]
-python = "^3.11"
-pysam = "^0.22.1"
-pandas = "^2.2.2"
-psycopg = "^3.1.19"
-psycopg-pool = "^3.2.2"
-tqdm = "^4.66.4"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = []
